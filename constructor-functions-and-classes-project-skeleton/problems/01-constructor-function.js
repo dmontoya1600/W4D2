@@ -40,8 +40,13 @@ console.log(message2);
 // }
 
 ***********************************************************************/
-
-
+function SMS(recipient, sender, text){
+  this.recipient = recipient
+  this.sender = sender
+  this.text = text
+}
+const message1 = new SMS('555-111-1111', '555-222-2222', 'Test message one');
+console.log(message1);
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
